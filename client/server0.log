@@ -1,0 +1,1266 @@
+Apr 17, 2019 4:59:01.468000000 PM [+0800] com.thirdbrigade.commoncore.util.KeystoreFileUtilities addCCJSecurityProvider
+INFO: CCJ security provider is added.
+Apr 17, 2019 4:59:01.514000000 PM [+0800] com.thirdbrigade.commoncore.util.KeystoreFileUtilities convertKeystoreTypeIfRequired
+INFO: isKeystoreBCFKS:false
+Apr 17, 2019 4:59:01.515000000 PM [+0800] com.thirdbrigade.commoncore.util.KeystoreFileUtilities convertKeystoreTypeIfRequired
+INFO: Doesn't need to convert keystore type.
+Apr 17, 2019 4:59:05.023000000 PM [+0800] org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["https-jsse-nio-4119"]
+Apr 17, 2019 4:59:05.477000000 PM [+0800] org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Apr 17, 2019 4:59:05.664000000 PM [+0800] org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Apr 17, 2019 4:59:05.835000000 PM [+0800] org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.5.34
+Apr 17, 2019 4:59:07.594000000 PM [+0800] org.apache.catalina.startup.ContextConfig getDefaultWebXmlFragment
+INFO: No global web.xml found
+Apr 17, 2019 4:59:28.250000000 PM [+0800] com.thirdbrigade.manager.core.Core startFull
+INFO: ThID:19|Initiating core full startup...
+Apr 17, 2019 4:59:29.379000000 PM [+0800] com.trendmicro.ds.events.db.EventStorageUpgraderDB logInfo
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|DS-Events upgrade: Starting to upgrade all ds-events tables. totaltenantcount=1
+Apr 17, 2019 4:59:29.466000000 PM [+0800] com.trendmicro.ds.events.db.EventStorageUpgraderDB logInfo
+INFO: ThID:23|TID:0|TNAME:Primary|UID:-1|UNAME:|DS-Events upgrade: Done upgrading ds-events tables for a tenant. tenantid=0, progress=(1/1), timetaken="83 ms"
+Apr 17, 2019 4:59:29.467000000 PM [+0800] com.trendmicro.ds.events.db.EventStorageUpgraderDB logInfo
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|DS-Events upgrade: Done upgrading all ds-events tables. timetaken="87 ms"
+Apr 17, 2019 4:59:29.542000000 PM [+0800] com.thirdbrigade.manager.core.Core startup
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|FIPS mode: false
+Apr 17, 2019 4:59:29.546000000 PM [+0800] com.thirdbrigade.manager.webclient.initialization.StartupProgressImpl write
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Initializing...
+Apr 17, 2019 4:59:29.603000000 PM [+0800] com.thirdbrigade.manager.core.Core reloadManagerGlobals
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Updating SSL Certificate Thumbprint...
+Apr 17, 2019 4:59:29.632000000 PM [+0800] com.thirdbrigade.manager.core.Core reloadManagerGlobals
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Updating SSL Certificate Thumbprint in SHA 256 format...
+Apr 17, 2019 4:59:29.633000000 PM [+0800] com.thirdbrigade.manager.core.Core reloadManagerGlobals
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Updating any NSX Managers in the System...
+Apr 17, 2019 4:59:30.708000000 PM [+0800] com.thirdbrigade.manager.core.scheduler.ManagerJobs completeOwnedManagerJobsOfType
+WARNING: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|No manager Job type, do nothing.
+Apr 17, 2019 4:59:31.596000000 PM [+0800] com.thirdbrigade.manager.webclient.initialization.StartupProgressImpl write
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Installing Anti-Malware and Web Reputation...
+Apr 17, 2019 4:59:31.603000000 PM [+0800] com.trendmicro.ds.antimalware.AntiMalwarePlugin installedOrUpgraded
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Installed (12.0.239)
+Apr 17, 2019 4:59:32.424000000 PM [+0800] com.trendmicro.ds.antimalware.AntiMalwarePlugin migrateATSESettings
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|ATSE level count: 0
+Apr 17, 2019 4:59:32.485000000 PM [+0800] com.thirdbrigade.manager.webclient.initialization.StartupProgressImpl write
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Starting Anti-Malware and Web Reputation...
+Apr 17, 2019 4:59:32.485000000 PM [+0800] com.trendmicro.ds.antimalware.AntiMalwarePlugin start
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Anti-Malware and Web Reputation Plugin Starting (com.trendmicro.ds.antimalware 12.0.239)
+Apr 17, 2019 4:59:33.087000000 PM [+0800] com.thirdbrigade.manager.webclient.initialization.StartupProgressImpl write
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Installing Firewall and Intrusion Prevention...
+Apr 17, 2019 4:59:33.090000000 PM [+0800] com.trendmicro.ds.network.NetworkPlugin installedOrUpgraded
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Installed (12.0.239)
+Apr 17, 2019 4:59:33.795000000 PM [+0800] com.trendmicro.ds.network.NetworkPlugin createManagerConnectionOverride
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Not adding 4119 override for DSM profile since either no DSM profile or no Web Server Common Application type were found.
+Apr 17, 2019 4:59:34.214000000 PM [+0800] com.thirdbrigade.manager.webclient.initialization.StartupProgressImpl write
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Starting Firewall and Intrusion Prevention...
+Apr 17, 2019 4:59:34.214000000 PM [+0800] com.trendmicro.ds.network.NetworkPlugin start
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Network Plugin Starting (com.trendmicro.ds.network 12.0.239)
+Apr 17, 2019 4:59:34.489000000 PM [+0800] com.thirdbrigade.manager.webclient.initialization.StartupProgressImpl write
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Installing Application Control...
+Apr 17, 2019 4:59:34.496000000 PM [+0800] com.trendmicro.ds.appcontrol.AppControlPlugin installedOrUpgraded
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Installed (12.0.239)
+Apr 17, 2019 4:59:34.766000000 PM [+0800] com.thirdbrigade.manager.webclient.initialization.StartupProgressImpl write
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Starting Application Control...
+Apr 17, 2019 4:59:34.766000000 PM [+0800] com.trendmicro.ds.appcontrol.AppControlPlugin start
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|App Control Plugin Starting (com.trendmicro.ds.appcontrol 12.0.239)
+Apr 17, 2019 4:59:34.912000000 PM [+0800] com.thirdbrigade.manager.webclient.initialization.StartupProgressImpl write
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Installing Integrity Monitoring...
+Apr 17, 2019 4:59:34.915000000 PM [+0800] com.trendmicro.ds.integrity.IntegrityPlugin installedOrUpgraded
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Installed (12.0.239)
+Apr 17, 2019 4:59:37.151000000 PM [+0800] com.thirdbrigade.manager.webclient.initialization.StartupProgressImpl write
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Starting Integrity Monitoring...
+Apr 17, 2019 4:59:37.151000000 PM [+0800] com.trendmicro.ds.integrity.IntegrityPlugin start
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Integrity Monitoring Plugin Starting (com.trendmicro.ds.integrity 12.0.239)
+Apr 17, 2019 4:59:37.305000000 PM [+0800] com.thirdbrigade.manager.webclient.initialization.StartupProgressImpl write
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Installing Log Inspection...
+Apr 17, 2019 4:59:37.308000000 PM [+0800] com.trendmicro.ds.loginspection.LogInspectionPlugin installedOrUpgraded
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Installed (12.0.239)
+Apr 17, 2019 4:59:37.850000000 PM [+0800] com.thirdbrigade.manager.webclient.initialization.StartupProgressImpl write
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Starting Log Inspection...
+Apr 17, 2019 4:59:37.850000000 PM [+0800] com.trendmicro.ds.loginspection.LogInspectionPlugin start
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Log Inspection Plugin Starting (com.trendmicro.ds.loginspection 12.0.239)
+Apr 17, 2019 4:59:37.936000000 PM [+0800] com.thirdbrigade.manager.webclient.initialization.StartupProgressImpl write
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Installing Deep Security Scanner...
+Apr 17, 2019 4:59:37.939000000 PM [+0800] com.trendmicro.ds.sap.SAPPlugin installedOrUpgraded
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Installed (12.0.239)
+Apr 17, 2019 4:59:38.056000000 PM [+0800] com.thirdbrigade.manager.webclient.initialization.StartupProgressImpl write
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Starting Deep Security Scanner...
+Apr 17, 2019 4:59:38.058000000 PM [+0800] com.trendmicro.ds.sap.SAPPlugin start
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Scanner (SAP and ICAP) Plugin Starting (com.trendmicro.ds.sap 12.0.239)
+Apr 17, 2019 4:59:38.077000000 PM [+0800] com.thirdbrigade.manager.webclient.initialization.StartupProgressImpl write
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Installing API...
+Apr 17, 2019 4:59:38.080000000 PM [+0800] com.trendmicro.ds.api.APIPlugin installedOrUpgraded
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Installed (12.0.239)
+Apr 17, 2019 4:59:38.111000000 PM [+0800] com.thirdbrigade.manager.webclient.initialization.StartupProgressImpl write
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Starting API...
+Apr 17, 2019 4:59:38.111000000 PM [+0800] com.trendmicro.ds.api.APIPlugin start
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|API Plugin Starting (com.trendmicro.ds.api 12.0.239)
+Apr 17, 2019 4:59:38.118000000 PM [+0800] com.thirdbrigade.manager.webclient.initialization.StartupProgressImpl write
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Installing Web Services Adapter...
+Apr 17, 2019 4:59:38.121000000 PM [+0800] com.trendmicro.ds.legacy.LegacyPlugin installedOrUpgraded
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Installed (12.0.239)
+Apr 17, 2019 4:59:38.140000000 PM [+0800] com.thirdbrigade.manager.webclient.initialization.StartupProgressImpl write
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Starting Web Services Adapter...
+Apr 17, 2019 4:59:38.140000000 PM [+0800] com.trendmicro.ds.legacy.LegacyPlugin start
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Legacy Webservice Plugin Starting (com.trendmicro.ds.legacy 12.0.239)
+Apr 17, 2019 4:59:38.375000000 PM [+0800] com.thirdbrigade.manager.webclient.initialization.StartupProgressImpl write
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Installing Example Policies...
+Apr 17, 2019 4:59:38.375000000 PM [+0800] com.thirdbrigade.manager.core.Core continueStartForFullRunLevel
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Importing Example Security Profiles: /opt/dsm/installfiles/SecurityProfiles.xml
+Apr 17, 2019 4:59:41.029000000 PM [+0800] com.thirdbrigade.manager.webclient.initialization.StartupProgressImpl write
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Applying Rule Update...
+Apr 17, 2019 4:59:41.029000000 PM [+0800] com.thirdbrigade.manager.core.Core continueStartForFullRunLevel
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Applying Deep Security Update: /opt/dsm/installfiles/latest.dsru
+Apr 17, 2019 4:59:44.947000000 PM [+0800] com.thirdbrigade.commoncore.util.SecurityUpdateUtilities decrypt
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Verified signature on DSRU signed by Trend Micro, Inc., signed on Wed Jan 30 04:40:58 CST 2019
+Apr 17, 2019 5:01:34.615000000 PM [+0800] com.thirdbrigade.manager.webclient.initialization.StartupProgressImpl write
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Creating Default Assignments for Example Policies...
+Apr 17, 2019 5:01:34.616000000 PM [+0800] com.thirdbrigade.manager.core.Core continueStartForFullRunLevel
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Mapping the Two Together: /opt/dsm/installfiles/latest_dsru_map.csv
+Apr 17, 2019 5:01:35.122000000 PM [+0800] com.thirdbrigade.manager.webclient.initialization.StartupProgressImpl write
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Installing Relay...
+Apr 17, 2019 5:01:35.353000000 PM [+0800] com.thirdbrigade.manager.core.iau.RelayUtilities installOrUpgradeLocalRelay
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Platform = RedHat_EL7 x86_64
+Apr 17, 2019 5:01:36.369000000 PM [+0800] com.thirdbrigade.manager.core.db.SoftwareUpdateEntryPeer downloadAgentPackage
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Downloading software inventory
+Apr 17, 2019 5:01:36.926000000 PM [+0800] com.thirdbrigade.manager.core.db.SoftwareUpdateEntryPeer downloadAgentPackage
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Downloading 11.3/Agent-RedHat_EL7-11.3.0-292.x86_64.zip from https://files.trendmicro.com/products/deepsecurity/en/11.3/Agent-RedHat_EL7-11.3.0-292.x86_64.zip
+Apr 17, 2019 5:01:44.560000000 PM [+0800] com.thirdbrigade.manager.core.db.SoftwareUpdateEntryPeer downloadAgentPackage
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Download complete
+Apr 17, 2019 5:01:44.562000000 PM [+0800] com.thirdbrigade.manager.core.iau.RelayUtilities installOrUpgradeLocalRelay
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Using install package: Agent-RedHat_EL7-11.3.0-292.x86_64.zip
+Apr 17, 2019 5:01:44.564000000 PM [+0800] com.thirdbrigade.manager.core.iau.RelayUtilities installOrUpgradeLocalRelay
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Extracted installer: /opt/dsm/temp/Agent-RedHat_EL7-11.3.0-292.x86_64/Agent-Core-RedHat_EL7-11.3.0-292.x86_64.rpm
+Apr 17, 2019 5:01:44.572000000 PM [+0800] com.thirdbrigade.manager.core.iau.RelayUtilities installOrUpgradeLocalRelay
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Running install command: rpm -U /opt/dsm/temp/1555491704564/Agent-Core-RedHat_EL7-11.3.0-292.x86_64.rpm
+Apr 17, 2019 5:01:48.703000000 PM [+0800] com.thirdbrigade.manager.core.iau.RelayUtilities installOrUpgradeLocalRelay
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Sucessfully installed agent
+Apr 17, 2019 5:01:53.707000000 PM [+0800] com.thirdbrigade.manager.core.iau.RelayUtilities installOrUpgradeLocalRelay
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Attempting to create new Host record for co-located relay: 10.201.246.171
+Apr 17, 2019 5:01:53.894000000 PM [+0800] com.thirdbrigade.manager.core.iau.RelayUtilities installOrUpgradeLocalRelay
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Created host with name 10.201.246.171 and ID 1
+Apr 17, 2019 5:01:53.997000000 PM [+0800] com.thirdbrigade.manager.core.iau.RelayUtilities installOrUpgradeLocalRelay
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Enabling relay on agent 10.201.246.171
+Apr 17, 2019 5:01:54.060000000 PM [+0800] com.thirdbrigade.manager.webclient.initialization.StartupProgressImpl write
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Finishing Installation...
+Apr 17, 2019 5:01:55.082000000 PM [+0800] com.trendmicro.manager.core.monitoring.JVMStatsThread <init>
+WARNING: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Cannot obtain process CPU usage information, required method not found
+Apr 17, 2019 5:01:55.488000000 PM [+0800] com.thirdbrigade.commoncore.util.IptablesOperations openPort
+INFO: ThID:60|TID:0|TNAME:Primary|UID:-1|UNAME:|Trying to open port 4120 on iptables
+Apr 17, 2019 5:01:55.895000000 PM [+0800] com.thirdbrigade.commoncore.util.IptablesOperations openPort
+INFO: ThID:60|TID:0|TNAME:Primary|UID:-1|UNAME:|Port 4120 opened on iptables.
+Apr 17, 2019 5:01:56.514000000 PM [+0800] com.thirdbrigade.commoncore.util.IptablesOperations openPort
+INFO: ThID:71|TID:0|TNAME:Primary|UID:-1|UNAME:|Trying to open port 4119 on iptables
+Apr 17, 2019 5:01:56.532000000 PM [+0800] com.thirdbrigade.manager.core.Core initialKeyPairPool
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|rsa2048KeyPairPool is created
+Apr 17, 2019 5:01:56.535000000 PM [+0800] com.thirdbrigade.manager.core.iau.RelayUtilities identifyCoLocatedHost
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Finding host on Manager machine.
+Apr 17, 2019 5:01:56.573000000 PM [+0800] com.thirdbrigade.manager.core.Core startFull
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Core started fully in 148326 ms
+Apr 17, 2019 5:01:56.585000000 PM [+0800] com.thirdbrigade.manager.webclient.initialization.InitializeServlet init
+INFO: Fully Initialized
+Apr 17, 2019 5:01:56.585000000 PM [+0800] com.trendmicro.ds.network.NetworkPlugin lambda$start$0
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|At full start up callback of NetworkPlugin, afterInstall = true
+Apr 17, 2019 5:01:56.593000000 PM [+0800] com.trendmicro.ds.network.NetworkPlugin$CreateManagerConnectionOverrideCallback go
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Execute createManagerConnectionOverride at full startup callback
+Apr 17, 2019 5:01:56.599000000 PM [+0800] com.trendmicro.ds.network.NetworkPlugin createManagerConnectionOverride
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Added 4119 port override for Web Server common for the DSM profile.
+Apr 17, 2019 5:01:56.930000000 PM [+0800] com.thirdbrigade.commoncore.util.IptablesOperations openPort
+INFO: ThID:71|TID:0|TNAME:Primary|UID:-1|UNAME:|Port 4119 opened on iptables.
+Apr 17, 2019 5:01:58.079000000 PM [+0800] com.trendmicro.ds.platform.rest.RestApplication <init>
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Starting RestApplication
+Apr 17, 2019 5:02:07.286000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002225: Deploying javax.ws.rs.core.Application: class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.288000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002205: Adding provider class com.trendmicro.ds.platform.rest.ext.AccessTypeExceptionMapper from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.288000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002205: Adding provider class com.trendmicro.ds.platform.rest.ext.JsonMappingExceptionMapper from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.288000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002205: Adding provider class com.trendmicro.ds.platform.rest.impl.JacksonContextResolver from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.288000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002205: Adding provider class com.trendmicro.ds.platform.rest.ext.FailureExceptionMapper from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.288000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002205: Adding provider class com.trendmicro.ds.platform.rest.ext.UnmarshalExceptionMapper from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.289000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002205: Adding provider class com.trendmicro.ds.platform.rest.ext.ValidationExceptionMapper from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.290000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002205: Adding provider class com.trendmicro.ds.platform.rest.ext.MetricsResponseFilter from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.290000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002205: Adding provider class com.trendmicro.ds.platform.rest.ext.AuthorizationExceptionMapper from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.290000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002205: Adding provider class com.trendmicro.ds.platform.rest.ext.AllExceptionMapper from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.290000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002205: Adding provider class com.trendmicro.ds.platform.rest.ext.SQLExceptionMapper from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.291000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002205: Adding provider class com.trendmicro.ds.platform.rest.ext.CookieNotFoundExceptionMapper from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.291000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002205: Adding provider class com.trendmicro.ds.platform.rest.ext.PasswordExpiredExceptionMapper from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.291000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002205: Adding provider class com.trendmicro.ds.platform.rest.ext.JsonUnrecognizedPropertyExceptionMapper from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.291000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002205: Adding provider class com.trendmicro.ds.platform.rest.ext.T0OnlyExceptionMapper from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.291000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002205: Adding provider class com.trendmicro.ds.platform.rest.ext.CacheControlFilter from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.291000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002205: Adding provider class com.trendmicro.ds.platform.rest.ext.SecurityExceptionMapper from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.291000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002205: Adding provider class com.trendmicro.ds.platform.rest.ext.MetricsRequestFilter from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.292000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002205: Adding provider class com.trendmicro.ds.platform.rest.ext.WebApplicationExceptionMapper from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.292000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002205: Adding provider class com.trendmicro.ds.platform.rest.ext.TimeoutExceptionMapper from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.292000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002205: Adding provider class com.trendmicro.ds.platform.rest.ext.JsonParseExceptionMapper from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.296000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.platform.rest.internalimpl.SystemEventAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.297000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.platform.rest.impl.TenantDatabaseServerAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.297000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.sap.rest.internalimpl.HostAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.297000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.appcontrol.rest.impl.ApplicationControlPolicyAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.297000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.platform.rest.impl.SAMLIdentityProviderAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.297000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.platform.rest.internalimpl.LicenseAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.298000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.antimalware.rest.impl.WebReputationEventAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.298000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.sap.rest.internalimpl.PolicyAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.298000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.platform.rest.impl.SmartFoldersAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.299000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.platform.rest.impl.ServerStatusAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.299000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.platform.rest.impl.ReportAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.299000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.platform.rest.impl.AdministratorRoleAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.299000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.appcontrol.rest.impl.RulesetAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.299000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.scanner.rest.impl.HostSettingsAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.299000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.loginspection.rest.impl.WidgetsAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.300000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.antimalware.rest.impl.AntiMalwaresAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.300000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.platform.rest.internalimpl.AlertAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.300000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.antimalware.rest.impl.PolicySettingsAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.301000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.network.rest.impl.PacketLogEventAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.301000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.appcontrol.rest.impl.TrustedUpdateModeAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.301000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002210: Adding provider singleton com.trendmicro.ds.platform.rest.RestApplication$LenientMediaTypeHeaderDelegate from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.301000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.platform.rest.impl.ScriptAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.301000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.appcontrol.rest.impl.EventAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.302000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.platform.rest.internalimpl.HostAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.302000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.appcontrol.rest.impl.GlobalRulesetAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.302000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.platform.rest.impl.SAMLServiceProviderAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.302000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.platform.rest.impl.MonitoringAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.302000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.platform.rest.impl.AlertTypeAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.302000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.platform.rest.impl.ScheduledTaskAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.302000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.platform.rest.internalimpl.NSXAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.303000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.platform.rest.impl.ProxyAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.303000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.platform.rest.impl.SessionAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.303000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.platform.rest.impl.ManagerInfoAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.303000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.antimalware.rest.impl.WidgetsAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.303000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.appcontrol.rest.impl.SoftwareInventoryAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.303000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.platform.rest.impl.SupportAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.304000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.integrity.rest.impl.EventAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.304000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.platform.rest.impl.SyslogConfigurationAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.304000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.platform.rest.impl.IntegrationAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.304000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.platform.rest.impl.EventBasedTaskAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.304000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.platform.rest.impl.StatusAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.304000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.platform.rest.impl.HostGroupAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.305000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.platform.rest.impl.AWSAccountAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.305000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.platform.rest.impl.PerformanceProfileAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.305000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.network.rest.impl.HostSSLConfigurationAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.305000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.platform.rest.internalimpl.SystemSettingAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.305000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.loginspection.rest.impl.EventAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.305000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.platform.rest.impl.TenantAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.306000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.platform.rest.internalimpl.StatusBarAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.306000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.platform.rest.impl.RelayAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.306000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.platform.rest.internalimpl.UIUtilitiesAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.306000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.platform.rest.impl.RelayGroupAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.306000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.platform.rest.impl.AuthenticationAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.306000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.platform.rest.impl.SuspiciousObjectsAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.307000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.antimalware.rest.impl.HostSettingsAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.307000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.platform.rest.impl.LicenseAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.307000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.antimalware.rest.impl.AntiMalwareEventAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.307000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.appcontrol.rest.impl.DriftAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.307000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.platform.rest.impl.TenantTemplateAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.307000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.platform.rest.impl.ManagerNodeAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.308000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.platform.rest.impl.SmartFoldersUIAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.308000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.platform.rest.impl.AWSAccountAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.308000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.platform.rest.impl.HostAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.308000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.platform.rest.impl.ServiceRegisterAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.308000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.sap.rest.internalimpl.OverridesAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.308000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.platform.rest.impl.AdministratorAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.308000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.platform.rest.impl.GeneralAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.309000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.network.rest.impl.EventAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.309000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.platform.rest.impl.NewsFeedAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.309000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.platform.rest.impl.CloudAccountAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.309000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.platform.rest.impl.AlertAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.309000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.scanner.rest.impl.PolicySettingsAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.309000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.platform.rest.internalimpl.SoftwarePackageAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.310000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.network.rest.impl.WidgetsAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.310000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.integrity.rest.impl.WidgetsAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.310000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002220: Adding singleton resource com.trendmicro.ds.platform.rest.impl.MultiTenantConfigurationAPI from Application class com.trendmicro.ds.platform.rest.RestApplication
+Apr 17, 2019 5:02:07.991000000 PM [+0800] com.trendmicro.ds.api.ApiApplication appConfig
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Starting new REST service for version: v1
+Apr 17, 2019 5:02:08.812000000 PM [+0800] org.reflections.Reflections scan
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Reflections took 96 ms to scan 1 urls, producing 690 keys and 1757 values
+Apr 17, 2019 5:02:10.748000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002225: Deploying javax.ws.rs.core.Application: class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.748000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.schedule.impl.ScheduleAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.748000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002205: Adding provider class com.trendmicro.ds.api.extensions.UnmarshalExceptionMapper from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.748000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.applicationcontrolglobalrule.impl.ApplicationControlGlobalRuleAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.748000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.maclist.impl.MACListAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.749000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002205: Adding provider class com.trendmicro.ds.api.extensions.WebApplicationExceptionMapper from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.749000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002205: Adding provider class io.swagger.jaxrs.listing.SwaggerSerializers from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.749000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.policy.impl.PolicyAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.749000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.computergroup.impl.ComputerGroupAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.749000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.tenant.impl.TenantAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.749000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.policyloginspection.impl.PolicyLogInspectionAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.749000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002205: Adding provider class com.trendmicro.ds.api.extensions.JsonParseExceptionMapper from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.749000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.policyintrusionpreventionapplicationtype.impl.PolicyIntrusionPreventionApplicationTypeAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.750000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002205: Adding provider class com.trendmicro.ds.api.extensions.TimeoutExceptionMapper from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.750000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002205: Adding provider class com.trendmicro.ds.api.extensions.SQLExceptionMapper from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.750000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.directorylist.impl.DirectoryListAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.750000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.computerloginspectionrule.impl.ComputerLogInspectionRuleAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.750000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.computer.impl.ComputerAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.750000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002205: Adding provider class com.trendmicro.ds.api.extensions.JacksonContextResolver from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.750000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002205: Adding provider class com.trendmicro.ds.api.extensions.MetricsRequestFilter from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.750000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002205: Adding provider class com.trendmicro.ds.api.extensions.AccessTypeExceptionMapper from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.751000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.iplist.impl.IPListAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.751000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.administratorrole.impl.AdministratorRoleAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.751000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002205: Adding provider class com.trendmicro.ds.api.extensions.AllExceptionMapper from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.751000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.softwareinventory.impl.SoftwareInventoryAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.751000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.computerintegritymonitoring.impl.ComputerIntegrityMonitoringAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.751000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.firewallrule.impl.FirewallRuleAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.751000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002205: Adding provider class com.trendmicro.ds.api.extensions.JsonUnrecognizedPropertyExceptionMapper from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.751000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002205: Adding provider class com.trendmicro.ds.api.CacheControlFilter from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.751000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.fileextensionlist.impl.FileExtensionListAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.752000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.softwarechange.impl.SoftwareChangeAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.752000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.setting.impl.SettingAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.752000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.filelist.impl.FileListAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.752000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002205: Adding provider class com.trendmicro.ds.api.extensions.SettingsValidationExceptionMapper from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.752000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.portlist.impl.PortListAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.752000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.loginspectionrule.impl.LogInspectionRuleAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.752000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.computerfirewall.impl.ComputerFirewallAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.752000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.apikey.impl.APIKeyAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.753000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002205: Adding provider class com.trendmicro.ds.api.extensions.PasswordExpiredExceptionMapper from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.753000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.computerfirewallrule.impl.ComputerFirewallRuleAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.753000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.scheduledtask.impl.ScheduledTaskAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.753000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.applicationtype.impl.ApplicationTypeAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.753000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.computerintegritymonitoringrule.impl.ComputerIntegrityMonitoringRuleAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.753000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.statefulconfiguration.impl.StatefulConfigurationAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.753000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.policyfirewall.impl.PolicyFirewallAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.753000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.rulecontext.impl.RuleContextAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.753000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.integritymonitoringrule.impl.IntegrityMonitoringRuleAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.754000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.certificate.impl.CertificateAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.754000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource io.swagger.jaxrs.listing.ApiListingResource from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.754000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.antimalwareconfiguration.impl.AntiMalwareConfigurationAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.754000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.administrator.impl.AdministratorAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.754000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.policyintegritymonitoring.impl.PolicyIntegrityMonitoringAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.754000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.softwareinventory.impl.SoftwareInventoryItemAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.754000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.script.impl.ScriptAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.754000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002205: Adding provider class com.trendmicro.ds.api.DSMVersionHeaderResponseFilter from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.754000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.apiusagemetric.impl.APIUsageMetricAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.755000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.computerintrusionpreventionapplicationtype.impl.ComputerIntrusionPreventionApplicationTypeAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.755000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.policyintegritymonitoringrule.impl.PolicyIntegrityMonitoringRuleAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.755000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.computerintrusionpreventionrule.impl.ComputerIntrusionPreventionRuleAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.755000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002205: Adding provider class com.trendmicro.ds.api.extensions.ValidationExceptionMapper from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.755000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002205: Adding provider class com.trendmicro.ds.api.extensions.JsonMappingExceptionMapper from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.755000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.ruleset.impl.RulesetAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.755000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.policyintrusionprevention.impl.PolicyIntrusionPreventionAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.755000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.computerloginspection.impl.ComputerLogInspectionAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.755000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.session.impl.SessionAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.756000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.agentdeploymentscript.impl.AgentDeploymentScriptAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.756000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.interfacetype.impl.InterfaceTypeAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.756000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.policyintrusionpreventionrule.impl.PolicyIntrusionPreventionRuleAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.756000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.policyfirewallrule.impl.PolicyFirewallRuleAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.756000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002205: Adding provider class com.trendmicro.ds.api.extensions.MetricsResponseFilter from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.756000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.computerintrusionprevention.impl.ComputerIntrusionPreventionAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.756000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.reporttemplate.impl.ReportTemplateAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.756000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.ruleset.impl.RulesetRuleAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.757000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002205: Adding provider class com.trendmicro.ds.api.extensions.NotFoundExceptionMapper from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.757000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.storageserver.impl.StorageServerAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.757000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002205: Adding provider class com.trendmicro.ds.api.extensions.FailureExceptionMapper from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.757000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.policyloginspectionrule.impl.PolicyLogInspectionRuleAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.757000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.intrusionpreventionrule.impl.IntrusionPreventionRuleAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.757000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002205: Adding provider class com.trendmicro.ds.api.extensions.CookieNotFoundExceptionMapper from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.757000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002200: Adding class resource com.trendmicro.ds.api.base.contact.impl.ContactAPI from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.758000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002205: Adding provider class com.trendmicro.ds.api.extensions.APIExceptionMapper from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.758000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002205: Adding provider class com.trendmicro.ds.api.AuthenticationFilter from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.758000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002210: Adding provider singleton com.trendmicro.ds.api.ApiApplication$LenientMediaTypeHeaderDelegate from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.758000000 PM [+0800] org.jboss.resteasy.spi.ResteasyDeployment processApplication
+INFO: RESTEASY002210: Adding provider singleton com.trendmicro.ds.api.DeprecationFilter from Application class com.trendmicro.ds.api.ApiApplication
+Apr 17, 2019 5:02:10.933000000 PM [+0800] com.thirdbrigade.manager.webclient.initialization.StartedServlet init
+INFO: ThID:19|TID:0|TNAME:Primary|UID:-1|UNAME:|Started
+Apr 17, 2019 5:02:10.979000000 PM [+0800] org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["https-jsse-nio-4119"]
+Apr 17, 2019 5:02:51.303000000 PM [+0800] com.trendmicro.ds.integrity.jobs.ImEventsMigrationJob run
+INFO: ThID:89|TID:0|TNAME:Primary|UID:-1|UNAME:|IM Events Upgrade: IM events migration is done. Now proceeding to phase 2: entities pruning.
+Apr 17, 2019 5:06:44.549000000 PM [+0800] com.thirdbrigade.commoncore.util.SecurityUpdateUtilities decrypt
+INFO: ThID:130|TID:0|TNAME:Primary|UID:-1|UNAME:|HBID:c8e37c5def504d63ac8df508c52e32a0|Verified signature on DSRU signed by Trend Micro, Inc., signed on Wed Apr 17 03:49:05 CST 2019
+Apr 17, 2019 5:06:51.584000000 PM [+0800] com.thirdbrigade.commoncore.util.SecurityUpdateUtilities decrypt
+INFO: ThID:220|TID:0|TNAME:Primary|UID:-1|UNAME:|Verified signature on DSRU signed by Trend Micro, Inc., signed on Wed Apr 17 03:49:05 CST 2019
+Apr 17, 2019 5:20:43.082000000 PM [+0800] com.trendmicro.ds.platform.rest.ext.SQLExceptionMapper toResponse
+SEVERE: ThID:106|TID:0|TNAME:Primary|UID:1|UNAME:MasterAdmin|REST API method at /relay-groups/3 encountered error
+java.sql.SQLException: One or more Relay Groups could not be deleted because it is in use by one or more computers or Relays.
+	at com.trendmicro.ds.platform.rest.impl.RelayGroupAPI.deleteRelayGroup(RelayGroupAPI.java:725)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:140)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:294)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:248)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:235)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:402)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:209)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:227)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.thirdbrigade.manager.webclient.NoCacheFilter.doFilter(NoCacheFilter.java:25)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.filters.RemoteIpFilter.doFilter(RemoteIpFilter.java:884)
+	at org.apache.catalina.filters.RemoteIpFilter.doFilter(RemoteIpFilter.java:921)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.thirdbrigade.manager.webclient.HttpRequestFilter.doFilter(HttpRequestFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.thirdbrigade.manager.webclient.HttpResponseFilter.doFilter(HttpResponseFilter.java:73)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.thirdbrigade.manager.webclient.CookieFilter.doFilter(CookieFilter.java:40)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.postgresql.util.PSQLException: ERROR: update or delete on table "relaylists" violates foreign key constraint "frelayliscmmsodc" on table "hosts"
+  Detail: Key (relaylistid)=(3) is still referenced from table "hosts".
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2427)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2169)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:306)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:155)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:144)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.execute(DelegatingPreparedStatement.java:172)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.execute(DelegatingPreparedStatement.java:172)
+	at com.thirdbrigade.persistence1.PersistentPeer.doDelete(PersistentPeer.java:1431)
+	at com.thirdbrigade.persistence1.TNPersistentObject.delete(TNPersistentObject.java:67)
+	at com.trendmicro.ds.platform.rest.impl.RelayGroupAPI.deleteRelayGroup(RelayGroupAPI.java:714)
+	... 51 more
+
+Apr 17, 2019 5:20:44.713000000 PM [+0800] com.thirdbrigade.manager.core.scheduler.jobschedulers.jobs.HostUpdaterJob onRun
+INFO: ThID:641|TID:0|TNAME:Primary|UID:-1|UNAME:|HBID:ead7cb1d67ac40cea04a2a6e2c626760|A host updater job threw an exception but no host nor socket is available, action: UPDATE, hostID: 4
+com.thirdbrigade.persistence1.exceptions.ObjectNotFoundSQLException: Host Object not found, pkid: 4
+	at com.thirdbrigade.manager.core.db.HostPeer.retrieveByPK(HostPeer.java:115)
+	at com.thirdbrigade.manager.core.scheduler.jobschedulers.jobs.HostUpdaterJob.onRun(HostUpdaterJob.java:678)
+	at com.thirdbrigade.manager.core.scheduler.jobschedulers.jobs.Job.run(Job.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Apr 17, 2019 5:36:21.076000000 PM [+0800] com.trendmicro.ds.platform.plugin.PluginManager configureNewTenant
+INFO: ThID:1186|TID:0|TNAME:Primary|UID:1|UNAME:MasterAdmin|configuring tenant: TID:1|TNAME:MasterAdmin
+Apr 17, 2019 5:36:21.079000000 PM [+0800] com.thirdbrigade.manager.core.Core startFullTenantInitialization
+INFO: ThID:1186|TID:0|TNAME:Primary|UID:1|UNAME:MasterAdmin|Initiating full tenant initialization...
+Apr 17, 2019 5:36:27.108000000 PM [+0800] com.thirdbrigade.persistence1.Persistence1Instance closeDatabase
+INFO: ThID:1186|TID:0|TNAME:Primary|UID:1|UNAME:MasterAdmin|Cleaned DB caches for tenant: TID:-2147483648|TNAME:BOOTSTRAP
+Apr 17, 2019 5:36:27.109000000 PM [+0800] com.thirdbrigade.manager.core.Core initTenantDatabase
+INFO: ThID:1186|TID:1|TNAME:MasterAdmin|UID:1|UNAME:MasterAdmin|Creating database tables for new tenant...
+Apr 17, 2019 5:36:29.331000000 PM [+0800] com.trendmicro.ds.events.db.EventStorageUpgraderDB logInfo
+INFO: ThID:1186|TID:1|TNAME:MasterAdmin|UID:1|UNAME:MasterAdmin|DS-Events upgrade: Starting to upgrade all ds-events tables. totaltenantcount=1
+Apr 17, 2019 5:36:31.085000000 PM [+0800] com.trendmicro.ds.events.db.EventStorageUpgraderDB logInfo
+INFO: ThID:1188|TID:1|TNAME:MasterAdmin|UID:1|UNAME:MasterAdmin|DS-Events upgrade: Done upgrading ds-events tables for a tenant. tenantid=1, progress=(1/1), timetaken="1754 ms"
+Apr 17, 2019 5:36:31.085000000 PM [+0800] com.trendmicro.ds.events.db.EventStorageUpgraderDB logInfo
+INFO: ThID:1186|TID:1|TNAME:MasterAdmin|UID:1|UNAME:MasterAdmin|DS-Events upgrade: Done upgrading all ds-events tables. timetaken="1754 ms"
+Apr 17, 2019 5:36:31.097000000 PM [+0800] com.thirdbrigade.manager.webclient.initialization.StartupProgressImpl write
+INFO: ThID:1186|TID:1|TNAME:MasterAdmin|UID:1|UNAME:MasterAdmin|Initializing...
+Apr 17, 2019 5:36:31.097000000 PM [+0800] com.thirdbrigade.manager.core.Core startupNewTenant
+INFO: ThID:1186|TID:1|TNAME:MasterAdmin|UID:1|UNAME:MasterAdmin|Creating a new private key for new tenant id 1
+Apr 17, 2019 5:36:31.645000000 PM [+0800] com.thirdbrigade.manager.core.init.SecurityHardeningTask run
+INFO: ThID:1186|TID:1|TNAME:MasterAdmin|UID:1|UNAME:MasterAdmin|Hardening Security Settings...
+Apr 17, 2019 5:36:31.647000000 PM [+0800] com.thirdbrigade.manager.core.init.AuditorRoleCreatorTask run
+INFO: ThID:1186|TID:1|TNAME:MasterAdmin|UID:1|UNAME:MasterAdmin|Creating the Auditor Role...
+Apr 17, 2019 5:36:31.669000000 PM [+0800] com.thirdbrigade.manager.core.init.ComponentUpdateScheduledTaskCreatorTask run
+INFO: ThID:1186|TID:1|TNAME:MasterAdmin|UID:1|UNAME:MasterAdmin|Creating Scheduled Task for Component Update, and turning on Auto-Apply DSRUs...
+Apr 17, 2019 5:36:31.684000000 PM [+0800] com.thirdbrigade.manager.core.init.ExampleAssetImportanceCreatorTask run
+INFO: ThID:1186|TID:1|TNAME:MasterAdmin|UID:1|UNAME:MasterAdmin|Creating Sample Asset Importance Values...
+Apr 17, 2019 5:36:31.848000000 PM [+0800] com.trendmicro.ds.antimalware.AntiMalwarePlugin installedOrUpgraded
+INFO: ThID:1186|TID:1|TNAME:MasterAdmin|UID:1|UNAME:MasterAdmin|Installed (12.0.239)
+Apr 17, 2019 5:36:32.142000000 PM [+0800] com.trendmicro.ds.antimalware.AntiMalwarePlugin migrateATSESettings
+INFO: ThID:1186|TID:1|TNAME:MasterAdmin|UID:1|UNAME:MasterAdmin|ATSE level count: 0
+Apr 17, 2019 5:36:32.152000000 PM [+0800] com.trendmicro.ds.api.APIPlugin installedOrUpgraded
+INFO: ThID:1186|TID:1|TNAME:MasterAdmin|UID:1|UNAME:MasterAdmin|Installed (12.0.239)
+Apr 17, 2019 5:36:32.153000000 PM [+0800] com.trendmicro.ds.network.NetworkPlugin installedOrUpgraded
+INFO: ThID:1186|TID:1|TNAME:MasterAdmin|UID:1|UNAME:MasterAdmin|Installed (12.0.239)
+Apr 17, 2019 5:36:32.763000000 PM [+0800] com.trendmicro.ds.network.NetworkPlugin createManagerConnectionOverride
+INFO: ThID:1186|TID:1|TNAME:MasterAdmin|UID:1|UNAME:MasterAdmin|Not adding 4119 override for DSM profile since either no DSM profile or no Web Server Common Application type were found.
+Apr 17, 2019 5:36:32.825000000 PM [+0800] com.trendmicro.ds.legacy.LegacyPlugin installedOrUpgraded
+INFO: ThID:1186|TID:1|TNAME:MasterAdmin|UID:1|UNAME:MasterAdmin|Installed (12.0.239)
+Apr 17, 2019 5:36:32.825000000 PM [+0800] com.trendmicro.ds.appcontrol.AppControlPlugin installedOrUpgraded
+INFO: ThID:1186|TID:1|TNAME:MasterAdmin|UID:1|UNAME:MasterAdmin|Installed (12.0.239)
+Apr 17, 2019 5:36:33.030000000 PM [+0800] com.trendmicro.ds.integrity.IntegrityPlugin installedOrUpgraded
+INFO: ThID:1186|TID:1|TNAME:MasterAdmin|UID:1|UNAME:MasterAdmin|Installed (12.0.239)
+Apr 17, 2019 5:36:33.302000000 PM [+0800] com.trendmicro.ds.loginspection.LogInspectionPlugin installedOrUpgraded
+INFO: ThID:1186|TID:1|TNAME:MasterAdmin|UID:1|UNAME:MasterAdmin|Installed (12.0.239)
+Apr 17, 2019 5:36:33.465000000 PM [+0800] com.trendmicro.ds.sap.SAPPlugin installedOrUpgraded
+INFO: ThID:1186|TID:1|TNAME:MasterAdmin|UID:1|UNAME:MasterAdmin|Installed (12.0.239)
+Apr 17, 2019 5:36:33.510000000 PM [+0800] com.thirdbrigade.manager.webclient.initialization.StartupProgressImpl write
+INFO: ThID:1186|TID:1|TNAME:MasterAdmin|UID:1|UNAME:MasterAdmin|Installing Example Policies...
+Apr 17, 2019 5:36:33.510000000 PM [+0800] com.thirdbrigade.manager.core.Core continueStartForFullRunLevel
+INFO: ThID:1186|TID:1|TNAME:MasterAdmin|UID:1|UNAME:MasterAdmin|Importing Example Security Profiles: /opt/dsm/installfiles/SecurityProfiles.xml
+Apr 17, 2019 5:36:35.115000000 PM [+0800] com.thirdbrigade.manager.webclient.initialization.StartupProgressImpl write
+INFO: ThID:1186|TID:1|TNAME:MasterAdmin|UID:1|UNAME:MasterAdmin|Applying Rule Update...
+Apr 17, 2019 5:36:35.115000000 PM [+0800] com.thirdbrigade.manager.core.Core continueStartForFullRunLevel
+INFO: ThID:1186|TID:1|TNAME:MasterAdmin|UID:1|UNAME:MasterAdmin|Applying Deep Security Update: /opt/dsm/installfiles/latest.dsru
+Apr 17, 2019 5:36:38.816000000 PM [+0800] com.thirdbrigade.commoncore.util.SecurityUpdateUtilities decrypt
+INFO: ThID:1186|TID:1|TNAME:MasterAdmin|UID:1|UNAME:MasterAdmin|Verified signature on DSRU signed by Trend Micro, Inc., signed on Wed Jan 30 04:40:58 CST 2019
+Apr 17, 2019 5:38:20.320000000 PM [+0800] com.thirdbrigade.manager.webclient.initialization.StartupProgressImpl write
+INFO: ThID:1186|TID:1|TNAME:MasterAdmin|UID:1|UNAME:MasterAdmin|Creating Default Assignments for Example Policies...
+Apr 17, 2019 5:38:20.320000000 PM [+0800] com.thirdbrigade.manager.core.Core continueStartForFullRunLevel
+INFO: ThID:1186|TID:1|TNAME:MasterAdmin|UID:1|UNAME:MasterAdmin|Mapping the Two Together: /opt/dsm/installfiles/latest_dsru_map.csv
+Apr 17, 2019 5:38:20.761000000 PM [+0800] com.trendmicro.ds.network.NetworkPlugin postTenantCreation
+INFO: ThID:1186|TID:1|TNAME:MasterAdmin|UID:1|UNAME:MasterAdmin|Execute createManagerConnectionOverride at postTenantCreation of NetworkPlugin
+Apr 17, 2019 5:38:20.766000000 PM [+0800] com.trendmicro.ds.network.NetworkPlugin createManagerConnectionOverride
+INFO: ThID:1186|TID:1|TNAME:MasterAdmin|UID:1|UNAME:MasterAdmin|Added 4119 port override for Web Server common for the DSM profile.
+Apr 17, 2019 5:38:20.770000000 PM [+0800] com.thirdbrigade.manager.core.Core createTenantAdministratorAccount
+INFO: ThID:1186|TID:1|TNAME:MasterAdmin|UID:1|UNAME:MasterAdmin|Creating master administrator for new tenant...
+Apr 17, 2019 5:38:20.847000000 PM [+0800] com.thirdbrigade.manager.core.Core createTenantAdministratorAccount
+INFO: ThID:1186|TID:1|TNAME:MasterAdmin|UID:1|UNAME:MasterAdmin|Creating master administrator finished.
+Apr 17, 2019 5:38:21.010000000 PM [+0800] com.trendmicro.ds.platform.rest.impl.TenantAPI addTenant
+INFO: ThID:1186|TID:1|TNAME:MasterAdmin|UID:1|UNAME:MasterAdmin|Tenant Name: MasterAdmin initialized in: 119959ms
+Apr 17, 2019 5:38:27.627000000 PM [+0800] com.thirdbrigade.commoncore.util.SecurityUpdateUtilities decrypt
+INFO: ThID:427|TID:1|TNAME:MasterAdmin|UID:-1|UNAME:|Verified signature on DSRU signed by Trend Micro, Inc., signed on Wed Apr 17 03:49:05 CST 2019
+Apr 17, 2019 5:38:32.657000000 PM [+0800] com.thirdbrigade.manager.webclient.ScreenServlet processWithContext
+SEVERE: ThID:137|TID:1|TNAME:MasterAdmin|UID:1|UNAME:MasterAdmin|Invalid screen request (TenantCreationWizard), the request was a postback to a secure screen that did not include a valid rID (For Cross-site Request Forgery prevention). Sending the user to the error page.
+Apr 17, 2019 5:38:36.640000000 PM [+0800] com.thirdbrigade.manager.webclient.ScreenServlet processWithContext
+SEVERE: ThID:113|TID:1|TNAME:MasterAdmin|UID:1|UNAME:MasterAdmin|Invalid screen request (TenantCreationWizard), the request was a postback to a secure screen that did not include a valid rID (For Cross-site Request Forgery prevention). Sending the user to the error page.
+Apr 17, 2019 5:38:53.267000000 PM [+0800] com.thirdbrigade.manager.webclient.ScreenServlet processWithContext
+SEVERE: ThID:108|TID:1|TNAME:MasterAdmin|UID:1|UNAME:MasterAdmin|Invalid screen request (TenantCreationWizard), the request was a postback to a secure screen that did not include a valid rID (For Cross-site Request Forgery prevention). Sending the user to the error page.
+Apr 17, 2019 5:39:22.080000000 PM [+0800] com.trendmicro.ds.platform.objects.mt.Context _beginConnection
+WARNING: ThID:111|TID:1|TNAME:MasterAdmin|UID:1|UNAME:MasterAdmin|opening a connection within a transaction on thread 111
+com.trendmicro.ds.platform.objects.mt.ConcurrentDBSessionException
+	at com.trendmicro.ds.platform.objects.mt.Context._beginConnection(Context.java:472)
+	at com.trendmicro.ds.platform.objects.mt.Context.beginConnection(Context.java:429)
+	at com.thirdbrigade.manager.core.general.CredentialManager$1.run(CredentialManager.java:1012)
+	at com.thirdbrigade.manager.core.db.Locks.withLockInternal(Locks.java:458)
+	at com.thirdbrigade.manager.core.db.Locks.withLockNoExceptions(Locks.java:523)
+	at com.thirdbrigade.manager.core.db.Locks.withLockNoExceptions(Locks.java:535)
+	at com.thirdbrigade.manager.core.general.CredentialManager.getDSMCredentials(CredentialManager.java:997)
+	at com.thirdbrigade.manager.core.general.CredentialManager.getKeyManagerFactory(CredentialManager.java:150)
+	at com.thirdbrigade.manager.core.general.CredentialManager.getActivatedSSLContext(CredentialManager.java:388)
+	at com.thirdbrigade.manager.core.protocol.session.CommandProtocolSession.<init>(CommandProtocolSession.java:514)
+	at com.thirdbrigade.manager.core.protocol.session.CommandProtocolSession.getAgentStateOnHost(CommandProtocolSession.java:192)
+	at com.thirdbrigade.manager.core.protocol.session.CommandProtocolSession.getAgentStateOnHost(CommandProtocolSession.java:144)
+	at com.thirdbrigade.manager.core.command.HostCreateCommand.transactionBody(HostCreateCommand.java:87)
+	at com.thirdbrigade.manager.core.command.TransactionalCommand.execute(TransactionalCommand.java:20)
+	at com.thirdbrigade.manager.webclient.webservice.manager.ManagerSoapBindingImpl.hostCreate(ManagerSoapBindingImpl.java:4971)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.axis.providers.java.RPCProvider.invokeMethod(RPCProvider.java:397)
+	at org.apache.axis.providers.java.RPCProvider.processMessage(RPCProvider.java:186)
+	at org.apache.axis.providers.java.JavaProvider.invoke(JavaProvider.java:323)
+	at org.apache.axis.strategies.InvocationStrategy.visit(InvocationStrategy.java:32)
+	at org.apache.axis.SimpleChain.doVisiting(SimpleChain.java:118)
+	at org.apache.axis.SimpleChain.invoke(SimpleChain.java:83)
+	at org.apache.axis.handlers.soap.SOAPService.invoke(SOAPService.java:454)
+	at org.apache.axis.server.AxisServer.invoke(AxisServer.java:281)
+	at org.apache.axis.transport.http.AxisServlet.doPost(AxisServlet.java:699)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.apache.axis.transport.http.AxisServletBase.service(AxisServletBase.java:327)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.filters.RemoteIpFilter.doFilter(RemoteIpFilter.java:884)
+	at org.apache.catalina.filters.RemoteIpFilter.doFilter(RemoteIpFilter.java:921)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.thirdbrigade.manager.webclient.HttpRequestFilter.doFilter(HttpRequestFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.thirdbrigade.manager.webclient.HttpResponseFilter.doFilter(HttpResponseFilter.java:73)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.thirdbrigade.manager.webclient.CookieFilter.doFilter(CookieFilter.java:40)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.trendmicro.ds.platform.objects.mt.ConcurrentDBSessionException
+	at com.trendmicro.ds.platform.objects.mt.DBSession.<init>(DBSession.java:86)
+	at com.trendmicro.ds.platform.objects.mt.DBSession.<init>(DBSession.java:75)
+	at com.trendmicro.ds.platform.objects.mt.TNSession.<init>(TNSession.java:20)
+	at com.trendmicro.ds.platform.objects.mt.TNTransaction.<init>(TNTransaction.java:55)
+	at com.trendmicro.ds.platform.objects.mt.Context._beginTransaction(Context.java:665)
+	at com.trendmicro.ds.platform.objects.mt.Context._beginTransaction(Context.java:629)
+	at com.trendmicro.ds.platform.objects.mt.Context.beginTransaction(Context.java:594)
+	at com.thirdbrigade.manager.core.command.TransactionalCommand.execute(TransactionalCommand.java:19)
+	... 51 more
+
+Apr 17, 2019 5:39:22.127000000 PM [+0800] com.trendmicro.ds.platform.objects.mt.Context _beginConnection
+WARNING: ThID:111|TID:1|TNAME:MasterAdmin|UID:1|UNAME:MasterAdmin|opening a connection within a transaction on thread 111
+com.trendmicro.ds.platform.objects.mt.ConcurrentDBSessionException
+	at com.trendmicro.ds.platform.objects.mt.Context._beginConnection(Context.java:472)
+	at com.trendmicro.ds.platform.objects.mt.Context.beginConnection(Context.java:429)
+	at com.thirdbrigade.manager.core.general.CredentialManager$1.run(CredentialManager.java:1029)
+	at com.thirdbrigade.manager.core.db.Locks.withLockInternal(Locks.java:458)
+	at com.thirdbrigade.manager.core.db.Locks.withLockNoExceptions(Locks.java:523)
+	at com.thirdbrigade.manager.core.db.Locks.withLockNoExceptions(Locks.java:535)
+	at com.thirdbrigade.manager.core.general.CredentialManager.getDSMCredentials(CredentialManager.java:997)
+	at com.thirdbrigade.manager.core.general.CredentialManager.getKeyManagerFactory(CredentialManager.java:150)
+	at com.thirdbrigade.manager.core.general.CredentialManager.getActivatedSSLContext(CredentialManager.java:388)
+	at com.thirdbrigade.manager.core.protocol.session.CommandProtocolSession.<init>(CommandProtocolSession.java:514)
+	at com.thirdbrigade.manager.core.protocol.session.CommandProtocolSession.getAgentStateOnHost(CommandProtocolSession.java:192)
+	at com.thirdbrigade.manager.core.protocol.session.CommandProtocolSession.getAgentStateOnHost(CommandProtocolSession.java:144)
+	at com.thirdbrigade.manager.core.command.HostCreateCommand.transactionBody(HostCreateCommand.java:87)
+	at com.thirdbrigade.manager.core.command.TransactionalCommand.execute(TransactionalCommand.java:20)
+	at com.thirdbrigade.manager.webclient.webservice.manager.ManagerSoapBindingImpl.hostCreate(ManagerSoapBindingImpl.java:4971)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.axis.providers.java.RPCProvider.invokeMethod(RPCProvider.java:397)
+	at org.apache.axis.providers.java.RPCProvider.processMessage(RPCProvider.java:186)
+	at org.apache.axis.providers.java.JavaProvider.invoke(JavaProvider.java:323)
+	at org.apache.axis.strategies.InvocationStrategy.visit(InvocationStrategy.java:32)
+	at org.apache.axis.SimpleChain.doVisiting(SimpleChain.java:118)
+	at org.apache.axis.SimpleChain.invoke(SimpleChain.java:83)
+	at org.apache.axis.handlers.soap.SOAPService.invoke(SOAPService.java:454)
+	at org.apache.axis.server.AxisServer.invoke(AxisServer.java:281)
+	at org.apache.axis.transport.http.AxisServlet.doPost(AxisServlet.java:699)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.apache.axis.transport.http.AxisServletBase.service(AxisServletBase.java:327)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.filters.RemoteIpFilter.doFilter(RemoteIpFilter.java:884)
+	at org.apache.catalina.filters.RemoteIpFilter.doFilter(RemoteIpFilter.java:921)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.thirdbrigade.manager.webclient.HttpRequestFilter.doFilter(HttpRequestFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.thirdbrigade.manager.webclient.HttpResponseFilter.doFilter(HttpResponseFilter.java:73)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.thirdbrigade.manager.webclient.CookieFilter.doFilter(CookieFilter.java:40)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.trendmicro.ds.platform.objects.mt.ConcurrentDBSessionException
+	at com.trendmicro.ds.platform.objects.mt.DBSession.<init>(DBSession.java:86)
+	at com.trendmicro.ds.platform.objects.mt.DBSession.<init>(DBSession.java:75)
+	at com.trendmicro.ds.platform.objects.mt.TNSession.<init>(TNSession.java:20)
+	at com.trendmicro.ds.platform.objects.mt.TNTransaction.<init>(TNTransaction.java:55)
+	at com.trendmicro.ds.platform.objects.mt.Context._beginTransaction(Context.java:665)
+	at com.trendmicro.ds.platform.objects.mt.Context._beginTransaction(Context.java:629)
+	at com.trendmicro.ds.platform.objects.mt.Context.beginTransaction(Context.java:594)
+	at com.thirdbrigade.manager.core.command.TransactionalCommand.execute(TransactionalCommand.java:19)
+	... 51 more
+
+Apr 17, 2019 5:41:25.008000000 PM [+0800] com.thirdbrigade.manager.core.scheduler.jobschedulers.JobSchedulerDistributedSpooling lookForJobs
+WARNING: ThID:97|TID:0|TNAME:Primary|UID:-1|UNAME:|Error looking for jobs
+com.thirdbrigade.persistence1.exceptions.ObjectNotFoundSQLException: Host Object not found, pkid: 4
+	at com.thirdbrigade.manager.core.db.HostPeer.retrieveByPK(HostPeer.java:115)
+	at com.thirdbrigade.manager.core.scheduler.jobschedulers.HostComponentUpdateJobScheduler.lookForJobsToSpool(HostComponentUpdateJobScheduler.java:143)
+	at com.thirdbrigade.manager.core.scheduler.jobschedulers.JobSchedulerDistributedSpooling.lookForJobs(JobSchedulerDistributedSpooling.java:140)
+	at com.thirdbrigade.manager.core.scheduler.JobCreationTask.lambda$doRun$0(JobCreationTask.java:81)
+	at com.thirdbrigade.manager.core.db.Locks.withLockInternal(Locks.java:458)
+	at com.thirdbrigade.manager.core.db.Locks.withLockNoExceptions(Locks.java:523)
+	at com.thirdbrigade.manager.core.db.Locks.withLockNoExceptions(Locks.java:535)
+	at com.thirdbrigade.manager.core.scheduler.JobCreationTask.doRun(JobCreationTask.java:73)
+	at com.thirdbrigade.manager.core.threads.ParallelizedTenantTask.lambda$run$0(ParallelizedTenantTask.java:50)
+	at com.thirdbrigade.manager.core.db.Locks.withLockInternal(Locks.java:458)
+	at com.thirdbrigade.manager.core.db.Locks.withLockIfNotLockedNoExceptions(Locks.java:585)
+	at com.thirdbrigade.manager.core.threads.ParallelizedTenantTask.run(ParallelizedTenantTask.java:50)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Apr 17, 2019 5:45:07.769000000 PM [+0800] com.thirdbrigade.manager.core.scheduler.jobschedulers.JobSchedulerDistributedSpooling lookForJobs
+WARNING: ThID:118|TID:0|TNAME:Primary|UID:-1|UNAME:|Error looking for jobs
+com.thirdbrigade.persistence1.exceptions.ObjectNotFoundSQLException: Host Object not found, pkid: 4
+	at com.thirdbrigade.manager.core.db.HostPeer.retrieveByPK(HostPeer.java:115)
+	at com.thirdbrigade.manager.core.scheduler.jobschedulers.HostComponentUpdateJobScheduler.lookForJobsToSpool(HostComponentUpdateJobScheduler.java:143)
+	at com.thirdbrigade.manager.core.scheduler.jobschedulers.JobSchedulerDistributedSpooling.lookForJobs(JobSchedulerDistributedSpooling.java:140)
+	at com.thirdbrigade.manager.core.scheduler.JobCreationTask.lambda$doRun$0(JobCreationTask.java:81)
+	at com.thirdbrigade.manager.core.db.Locks.withLockInternal(Locks.java:458)
+	at com.thirdbrigade.manager.core.db.Locks.withLockNoExceptions(Locks.java:523)
+	at com.thirdbrigade.manager.core.db.Locks.withLockNoExceptions(Locks.java:535)
+	at com.thirdbrigade.manager.core.scheduler.JobCreationTask.doRun(JobCreationTask.java:73)
+	at com.thirdbrigade.manager.core.threads.ParallelizedTenantTask.lambda$run$0(ParallelizedTenantTask.java:50)
+	at com.thirdbrigade.manager.core.db.Locks.withLockInternal(Locks.java:458)
+	at com.thirdbrigade.manager.core.db.Locks.withLockIfNotLockedNoExceptions(Locks.java:585)
+	at com.thirdbrigade.manager.core.threads.ParallelizedTenantTask.run(ParallelizedTenantTask.java:50)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Apr 17, 2019 5:48:25.101000000 PM [+0800] com.thirdbrigade.manager.core.scheduler.jobschedulers.JobSchedulerDistributedSpooling lookForJobs
+WARNING: ThID:102|TID:0|TNAME:Primary|UID:-1|UNAME:|Error looking for jobs
+com.thirdbrigade.persistence1.exceptions.ObjectNotFoundSQLException: Host Object not found, pkid: 4
+	at com.thirdbrigade.manager.core.db.HostPeer.retrieveByPK(HostPeer.java:115)
+	at com.thirdbrigade.manager.core.scheduler.jobschedulers.HostComponentUpdateJobScheduler.lookForJobsToSpool(HostComponentUpdateJobScheduler.java:143)
+	at com.thirdbrigade.manager.core.scheduler.jobschedulers.JobSchedulerDistributedSpooling.lookForJobs(JobSchedulerDistributedSpooling.java:140)
+	at com.thirdbrigade.manager.core.scheduler.JobCreationTask.lambda$doRun$0(JobCreationTask.java:81)
+	at com.thirdbrigade.manager.core.db.Locks.withLockInternal(Locks.java:458)
+	at com.thirdbrigade.manager.core.db.Locks.withLockNoExceptions(Locks.java:523)
+	at com.thirdbrigade.manager.core.db.Locks.withLockNoExceptions(Locks.java:535)
+	at com.thirdbrigade.manager.core.scheduler.JobCreationTask.doRun(JobCreationTask.java:73)
+	at com.thirdbrigade.manager.core.threads.ParallelizedTenantTask.lambda$run$0(ParallelizedTenantTask.java:50)
+	at com.thirdbrigade.manager.core.db.Locks.withLockInternal(Locks.java:458)
+	at com.thirdbrigade.manager.core.db.Locks.withLockIfNotLockedNoExceptions(Locks.java:585)
+	at com.thirdbrigade.manager.core.threads.ParallelizedTenantTask.run(ParallelizedTenantTask.java:50)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Apr 17, 2019 5:51:32.497000000 PM [+0800] com.thirdbrigade.manager.core.scheduler.jobschedulers.JobSchedulerDistributedSpooling lookForJobs
+WARNING: ThID:118|TID:0|TNAME:Primary|UID:-1|UNAME:|Error looking for jobs
+com.thirdbrigade.persistence1.exceptions.ObjectNotFoundSQLException: Host Object not found, pkid: 4
+	at com.thirdbrigade.manager.core.db.HostPeer.retrieveByPK(HostPeer.java:115)
+	at com.thirdbrigade.manager.core.scheduler.jobschedulers.HostComponentUpdateJobScheduler.lookForJobsToSpool(HostComponentUpdateJobScheduler.java:143)
+	at com.thirdbrigade.manager.core.scheduler.jobschedulers.JobSchedulerDistributedSpooling.lookForJobs(JobSchedulerDistributedSpooling.java:140)
+	at com.thirdbrigade.manager.core.scheduler.JobCreationTask.lambda$doRun$0(JobCreationTask.java:81)
+	at com.thirdbrigade.manager.core.db.Locks.withLockInternal(Locks.java:458)
+	at com.thirdbrigade.manager.core.db.Locks.withLockNoExceptions(Locks.java:523)
+	at com.thirdbrigade.manager.core.db.Locks.withLockNoExceptions(Locks.java:535)
+	at com.thirdbrigade.manager.core.scheduler.JobCreationTask.doRun(JobCreationTask.java:73)
+	at com.thirdbrigade.manager.core.threads.ParallelizedTenantTask.lambda$run$0(ParallelizedTenantTask.java:50)
+	at com.thirdbrigade.manager.core.db.Locks.withLockInternal(Locks.java:458)
+	at com.thirdbrigade.manager.core.db.Locks.withLockIfNotLockedNoExceptions(Locks.java:585)
+	at com.thirdbrigade.manager.core.threads.ParallelizedTenantTask.run(ParallelizedTenantTask.java:50)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Apr 17, 2019 5:54:49.705000000 PM [+0800] com.thirdbrigade.manager.core.scheduler.jobschedulers.JobSchedulerDistributedSpooling lookForJobs
+WARNING: ThID:102|TID:0|TNAME:Primary|UID:-1|UNAME:|Error looking for jobs
+com.thirdbrigade.persistence1.exceptions.ObjectNotFoundSQLException: Host Object not found, pkid: 4
+	at com.thirdbrigade.manager.core.db.HostPeer.retrieveByPK(HostPeer.java:115)
+	at com.thirdbrigade.manager.core.scheduler.jobschedulers.HostComponentUpdateJobScheduler.lookForJobsToSpool(HostComponentUpdateJobScheduler.java:143)
+	at com.thirdbrigade.manager.core.scheduler.jobschedulers.JobSchedulerDistributedSpooling.lookForJobs(JobSchedulerDistributedSpooling.java:140)
+	at com.thirdbrigade.manager.core.scheduler.JobCreationTask.lambda$doRun$0(JobCreationTask.java:81)
+	at com.thirdbrigade.manager.core.db.Locks.withLockInternal(Locks.java:458)
+	at com.thirdbrigade.manager.core.db.Locks.withLockNoExceptions(Locks.java:523)
+	at com.thirdbrigade.manager.core.db.Locks.withLockNoExceptions(Locks.java:535)
+	at com.thirdbrigade.manager.core.scheduler.JobCreationTask.doRun(JobCreationTask.java:73)
+	at com.thirdbrigade.manager.core.threads.ParallelizedTenantTask.lambda$run$0(ParallelizedTenantTask.java:50)
+	at com.thirdbrigade.manager.core.db.Locks.withLockInternal(Locks.java:458)
+	at com.thirdbrigade.manager.core.db.Locks.withLockIfNotLockedNoExceptions(Locks.java:585)
+	at com.thirdbrigade.manager.core.threads.ParallelizedTenantTask.run(ParallelizedTenantTask.java:50)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Apr 17, 2019 5:57:50.598000000 PM [+0800] com.thirdbrigade.manager.core.scheduler.jobschedulers.JobSchedulerDistributedSpooling lookForJobs
+WARNING: ThID:97|TID:0|TNAME:Primary|UID:-1|UNAME:|Error looking for jobs
+com.thirdbrigade.persistence1.exceptions.ObjectNotFoundSQLException: Host Object not found, pkid: 4
+	at com.thirdbrigade.manager.core.db.HostPeer.retrieveByPK(HostPeer.java:115)
+	at com.thirdbrigade.manager.core.scheduler.jobschedulers.HostComponentUpdateJobScheduler.lookForJobsToSpool(HostComponentUpdateJobScheduler.java:143)
+	at com.thirdbrigade.manager.core.scheduler.jobschedulers.JobSchedulerDistributedSpooling.lookForJobs(JobSchedulerDistributedSpooling.java:140)
+	at com.thirdbrigade.manager.core.scheduler.JobCreationTask.lambda$doRun$0(JobCreationTask.java:81)
+	at com.thirdbrigade.manager.core.db.Locks.withLockInternal(Locks.java:458)
+	at com.thirdbrigade.manager.core.db.Locks.withLockNoExceptions(Locks.java:523)
+	at com.thirdbrigade.manager.core.db.Locks.withLockNoExceptions(Locks.java:535)
+	at com.thirdbrigade.manager.core.scheduler.JobCreationTask.doRun(JobCreationTask.java:73)
+	at com.thirdbrigade.manager.core.threads.ParallelizedTenantTask.lambda$run$0(ParallelizedTenantTask.java:50)
+	at com.thirdbrigade.manager.core.db.Locks.withLockInternal(Locks.java:458)
+	at com.thirdbrigade.manager.core.db.Locks.withLockIfNotLockedNoExceptions(Locks.java:585)
+	at com.thirdbrigade.manager.core.threads.ParallelizedTenantTask.run(ParallelizedTenantTask.java:50)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Apr 17, 2019 6:00:51.307000000 PM [+0800] com.thirdbrigade.manager.core.scheduler.jobschedulers.JobSchedulerDistributedSpooling lookForJobs
+WARNING: ThID:102|TID:0|TNAME:Primary|UID:-1|UNAME:|Error looking for jobs
+com.thirdbrigade.persistence1.exceptions.ObjectNotFoundSQLException: Host Object not found, pkid: 4
+	at com.thirdbrigade.manager.core.db.HostPeer.retrieveByPK(HostPeer.java:115)
+	at com.thirdbrigade.manager.core.scheduler.jobschedulers.HostComponentUpdateJobScheduler.lookForJobsToSpool(HostComponentUpdateJobScheduler.java:143)
+	at com.thirdbrigade.manager.core.scheduler.jobschedulers.JobSchedulerDistributedSpooling.lookForJobs(JobSchedulerDistributedSpooling.java:140)
+	at com.thirdbrigade.manager.core.scheduler.JobCreationTask.lambda$doRun$0(JobCreationTask.java:81)
+	at com.thirdbrigade.manager.core.db.Locks.withLockInternal(Locks.java:458)
+	at com.thirdbrigade.manager.core.db.Locks.withLockNoExceptions(Locks.java:523)
+	at com.thirdbrigade.manager.core.db.Locks.withLockNoExceptions(Locks.java:535)
+	at com.thirdbrigade.manager.core.scheduler.JobCreationTask.doRun(JobCreationTask.java:73)
+	at com.thirdbrigade.manager.core.threads.ParallelizedTenantTask.lambda$run$0(ParallelizedTenantTask.java:50)
+	at com.thirdbrigade.manager.core.db.Locks.withLockInternal(Locks.java:458)
+	at com.thirdbrigade.manager.core.db.Locks.withLockIfNotLockedNoExceptions(Locks.java:585)
+	at com.thirdbrigade.manager.core.threads.ParallelizedTenantTask.run(ParallelizedTenantTask.java:50)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Apr 17, 2019 6:02:54.892000000 PM [+0800] com.trendmicro.ds.integrity.jobs.ImEventsMigrationJob run
+INFO: ThID:482|TID:0|TNAME:Primary|UID:-1|UNAME:|IM Events Upgrade: IM entities pruning is done. The upgrade is completed.
+Apr 17, 2019 6:03:58.687000000 PM [+0800] com.thirdbrigade.manager.core.scheduler.jobschedulers.JobSchedulerDistributedSpooling lookForJobs
+WARNING: ThID:97|TID:1|TNAME:MasterAdmin|UID:-1|UNAME:|Error looking for jobs
+com.thirdbrigade.persistence1.exceptions.ObjectNotFoundSQLException: Host Object not found, pkid: 2
+	at com.thirdbrigade.manager.core.db.HostPeer.retrieveByPK(HostPeer.java:115)
+	at com.thirdbrigade.manager.core.scheduler.jobschedulers.HostComponentUpdateJobScheduler.lookForJobsToSpool(HostComponentUpdateJobScheduler.java:143)
+	at com.thirdbrigade.manager.core.scheduler.jobschedulers.JobSchedulerDistributedSpooling.lookForJobs(JobSchedulerDistributedSpooling.java:140)
+	at com.thirdbrigade.manager.core.scheduler.JobCreationTask.lambda$doRun$0(JobCreationTask.java:81)
+	at com.thirdbrigade.manager.core.db.Locks.withLockInternal(Locks.java:458)
+	at com.thirdbrigade.manager.core.db.Locks.withLockNoExceptions(Locks.java:523)
+	at com.thirdbrigade.manager.core.db.Locks.withLockNoExceptions(Locks.java:535)
+	at com.thirdbrigade.manager.core.scheduler.JobCreationTask.doRun(JobCreationTask.java:73)
+	at com.thirdbrigade.manager.core.threads.ParallelizedTenantTask.lambda$run$0(ParallelizedTenantTask.java:50)
+	at com.thirdbrigade.manager.core.db.Locks.withLockInternal(Locks.java:458)
+	at com.thirdbrigade.manager.core.db.Locks.withLockIfNotLockedNoExceptions(Locks.java:585)
+	at com.thirdbrigade.manager.core.threads.ParallelizedTenantTask.run(ParallelizedTenantTask.java:50)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Apr 17, 2019 6:06:59.393000000 PM [+0800] com.thirdbrigade.manager.core.scheduler.jobschedulers.JobSchedulerDistributedSpooling lookForJobs
+WARNING: ThID:118|TID:1|TNAME:MasterAdmin|UID:-1|UNAME:|Error looking for jobs
+com.thirdbrigade.persistence1.exceptions.ObjectNotFoundSQLException: Host Object not found, pkid: 2
+	at com.thirdbrigade.manager.core.db.HostPeer.retrieveByPK(HostPeer.java:115)
+	at com.thirdbrigade.manager.core.scheduler.jobschedulers.HostComponentUpdateJobScheduler.lookForJobsToSpool(HostComponentUpdateJobScheduler.java:143)
+	at com.thirdbrigade.manager.core.scheduler.jobschedulers.JobSchedulerDistributedSpooling.lookForJobs(JobSchedulerDistributedSpooling.java:140)
+	at com.thirdbrigade.manager.core.scheduler.JobCreationTask.lambda$doRun$0(JobCreationTask.java:81)
+	at com.thirdbrigade.manager.core.db.Locks.withLockInternal(Locks.java:458)
+	at com.thirdbrigade.manager.core.db.Locks.withLockNoExceptions(Locks.java:523)
+	at com.thirdbrigade.manager.core.db.Locks.withLockNoExceptions(Locks.java:535)
+	at com.thirdbrigade.manager.core.scheduler.JobCreationTask.doRun(JobCreationTask.java:73)
+	at com.thirdbrigade.manager.core.threads.ParallelizedTenantTask.lambda$run$0(ParallelizedTenantTask.java:50)
+	at com.thirdbrigade.manager.core.db.Locks.withLockInternal(Locks.java:458)
+	at com.thirdbrigade.manager.core.db.Locks.withLockIfNotLockedNoExceptions(Locks.java:585)
+	at com.thirdbrigade.manager.core.threads.ParallelizedTenantTask.run(ParallelizedTenantTask.java:50)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Apr 17, 2019 6:10:00.136000000 PM [+0800] com.thirdbrigade.manager.core.scheduler.jobschedulers.JobSchedulerDistributedSpooling lookForJobs
+WARNING: ThID:97|TID:1|TNAME:MasterAdmin|UID:-1|UNAME:|Error looking for jobs
+com.thirdbrigade.persistence1.exceptions.ObjectNotFoundSQLException: Host Object not found, pkid: 2
+	at com.thirdbrigade.manager.core.db.HostPeer.retrieveByPK(HostPeer.java:115)
+	at com.thirdbrigade.manager.core.scheduler.jobschedulers.HostComponentUpdateJobScheduler.lookForJobsToSpool(HostComponentUpdateJobScheduler.java:143)
+	at com.thirdbrigade.manager.core.scheduler.jobschedulers.JobSchedulerDistributedSpooling.lookForJobs(JobSchedulerDistributedSpooling.java:140)
+	at com.thirdbrigade.manager.core.scheduler.JobCreationTask.lambda$doRun$0(JobCreationTask.java:81)
+	at com.thirdbrigade.manager.core.db.Locks.withLockInternal(Locks.java:458)
+	at com.thirdbrigade.manager.core.db.Locks.withLockNoExceptions(Locks.java:523)
+	at com.thirdbrigade.manager.core.db.Locks.withLockNoExceptions(Locks.java:535)
+	at com.thirdbrigade.manager.core.scheduler.JobCreationTask.doRun(JobCreationTask.java:73)
+	at com.thirdbrigade.manager.core.threads.ParallelizedTenantTask.lambda$run$0(ParallelizedTenantTask.java:50)
+	at com.thirdbrigade.manager.core.db.Locks.withLockInternal(Locks.java:458)
+	at com.thirdbrigade.manager.core.db.Locks.withLockIfNotLockedNoExceptions(Locks.java:585)
+	at com.thirdbrigade.manager.core.threads.ParallelizedTenantTask.run(ParallelizedTenantTask.java:50)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Apr 17, 2019 6:13:00.803000000 PM [+0800] com.thirdbrigade.manager.core.scheduler.jobschedulers.JobSchedulerDistributedSpooling lookForJobs
+WARNING: ThID:102|TID:1|TNAME:MasterAdmin|UID:-1|UNAME:|Error looking for jobs
+com.thirdbrigade.persistence1.exceptions.ObjectNotFoundSQLException: Host Object not found, pkid: 2
+	at com.thirdbrigade.manager.core.db.HostPeer.retrieveByPK(HostPeer.java:115)
+	at com.thirdbrigade.manager.core.scheduler.jobschedulers.HostComponentUpdateJobScheduler.lookForJobsToSpool(HostComponentUpdateJobScheduler.java:143)
+	at com.thirdbrigade.manager.core.scheduler.jobschedulers.JobSchedulerDistributedSpooling.lookForJobs(JobSchedulerDistributedSpooling.java:140)
+	at com.thirdbrigade.manager.core.scheduler.JobCreationTask.lambda$doRun$0(JobCreationTask.java:81)
+	at com.thirdbrigade.manager.core.db.Locks.withLockInternal(Locks.java:458)
+	at com.thirdbrigade.manager.core.db.Locks.withLockNoExceptions(Locks.java:523)
+	at com.thirdbrigade.manager.core.db.Locks.withLockNoExceptions(Locks.java:535)
+	at com.thirdbrigade.manager.core.scheduler.JobCreationTask.doRun(JobCreationTask.java:73)
+	at com.thirdbrigade.manager.core.threads.ParallelizedTenantTask.lambda$run$0(ParallelizedTenantTask.java:50)
+	at com.thirdbrigade.manager.core.db.Locks.withLockInternal(Locks.java:458)
+	at com.thirdbrigade.manager.core.db.Locks.withLockIfNotLockedNoExceptions(Locks.java:585)
+	at com.thirdbrigade.manager.core.threads.ParallelizedTenantTask.run(ParallelizedTenantTask.java:50)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Apr 17, 2019 6:16:01.595000000 PM [+0800] com.thirdbrigade.manager.core.scheduler.jobschedulers.JobSchedulerDistributedSpooling lookForJobs
+WARNING: ThID:76|TID:1|TNAME:MasterAdmin|UID:-1|UNAME:|Error looking for jobs
+com.thirdbrigade.persistence1.exceptions.ObjectNotFoundSQLException: Host Object not found, pkid: 2
+	at com.thirdbrigade.manager.core.db.HostPeer.retrieveByPK(HostPeer.java:115)
+	at com.thirdbrigade.manager.core.scheduler.jobschedulers.HostComponentUpdateJobScheduler.lookForJobsToSpool(HostComponentUpdateJobScheduler.java:143)
+	at com.thirdbrigade.manager.core.scheduler.jobschedulers.JobSchedulerDistributedSpooling.lookForJobs(JobSchedulerDistributedSpooling.java:140)
+	at com.thirdbrigade.manager.core.scheduler.JobCreationTask.lambda$doRun$0(JobCreationTask.java:81)
+	at com.thirdbrigade.manager.core.db.Locks.withLockInternal(Locks.java:458)
+	at com.thirdbrigade.manager.core.db.Locks.withLockNoExceptions(Locks.java:523)
+	at com.thirdbrigade.manager.core.db.Locks.withLockNoExceptions(Locks.java:535)
+	at com.thirdbrigade.manager.core.scheduler.JobCreationTask.doRun(JobCreationTask.java:73)
+	at com.thirdbrigade.manager.core.threads.ParallelizedTenantTask.lambda$run$0(ParallelizedTenantTask.java:50)
+	at com.thirdbrigade.manager.core.db.Locks.withLockInternal(Locks.java:458)
+	at com.thirdbrigade.manager.core.db.Locks.withLockIfNotLockedNoExceptions(Locks.java:585)
+	at com.thirdbrigade.manager.core.threads.ParallelizedTenantTask.run(ParallelizedTenantTask.java:50)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Apr 17, 2019 6:19:02.234000000 PM [+0800] com.thirdbrigade.manager.core.scheduler.jobschedulers.JobSchedulerDistributedSpooling lookForJobs
+WARNING: ThID:118|TID:1|TNAME:MasterAdmin|UID:-1|UNAME:|Error looking for jobs
+com.thirdbrigade.persistence1.exceptions.ObjectNotFoundSQLException: Host Object not found, pkid: 2
+	at com.thirdbrigade.manager.core.db.HostPeer.retrieveByPK(HostPeer.java:115)
+	at com.thirdbrigade.manager.core.scheduler.jobschedulers.HostComponentUpdateJobScheduler.lookForJobsToSpool(HostComponentUpdateJobScheduler.java:143)
+	at com.thirdbrigade.manager.core.scheduler.jobschedulers.JobSchedulerDistributedSpooling.lookForJobs(JobSchedulerDistributedSpooling.java:140)
+	at com.thirdbrigade.manager.core.scheduler.JobCreationTask.lambda$doRun$0(JobCreationTask.java:81)
+	at com.thirdbrigade.manager.core.db.Locks.withLockInternal(Locks.java:458)
+	at com.thirdbrigade.manager.core.db.Locks.withLockNoExceptions(Locks.java:523)
+	at com.thirdbrigade.manager.core.db.Locks.withLockNoExceptions(Locks.java:535)
+	at com.thirdbrigade.manager.core.scheduler.JobCreationTask.doRun(JobCreationTask.java:73)
+	at com.thirdbrigade.manager.core.threads.ParallelizedTenantTask.lambda$run$0(ParallelizedTenantTask.java:50)
+	at com.thirdbrigade.manager.core.db.Locks.withLockInternal(Locks.java:458)
+	at com.thirdbrigade.manager.core.db.Locks.withLockIfNotLockedNoExceptions(Locks.java:585)
+	at com.thirdbrigade.manager.core.threads.ParallelizedTenantTask.run(ParallelizedTenantTask.java:50)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Apr 17, 2019 6:22:02.933000000 PM [+0800] com.thirdbrigade.manager.core.scheduler.jobschedulers.JobSchedulerDistributedSpooling lookForJobs
+WARNING: ThID:97|TID:1|TNAME:MasterAdmin|UID:-1|UNAME:|Error looking for jobs
+com.thirdbrigade.persistence1.exceptions.ObjectNotFoundSQLException: Host Object not found, pkid: 2
+	at com.thirdbrigade.manager.core.db.HostPeer.retrieveByPK(HostPeer.java:115)
+	at com.thirdbrigade.manager.core.scheduler.jobschedulers.HostComponentUpdateJobScheduler.lookForJobsToSpool(HostComponentUpdateJobScheduler.java:143)
+	at com.thirdbrigade.manager.core.scheduler.jobschedulers.JobSchedulerDistributedSpooling.lookForJobs(JobSchedulerDistributedSpooling.java:140)
+	at com.thirdbrigade.manager.core.scheduler.JobCreationTask.lambda$doRun$0(JobCreationTask.java:81)
+	at com.thirdbrigade.manager.core.db.Locks.withLockInternal(Locks.java:458)
+	at com.thirdbrigade.manager.core.db.Locks.withLockNoExceptions(Locks.java:523)
+	at com.thirdbrigade.manager.core.db.Locks.withLockNoExceptions(Locks.java:535)
+	at com.thirdbrigade.manager.core.scheduler.JobCreationTask.doRun(JobCreationTask.java:73)
+	at com.thirdbrigade.manager.core.threads.ParallelizedTenantTask.lambda$run$0(ParallelizedTenantTask.java:50)
+	at com.thirdbrigade.manager.core.db.Locks.withLockInternal(Locks.java:458)
+	at com.thirdbrigade.manager.core.db.Locks.withLockIfNotLockedNoExceptions(Locks.java:585)
+	at com.thirdbrigade.manager.core.threads.ParallelizedTenantTask.run(ParallelizedTenantTask.java:50)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Apr 17, 2019 6:25:03.675000000 PM [+0800] com.thirdbrigade.manager.core.scheduler.jobschedulers.JobSchedulerDistributedSpooling lookForJobs
+WARNING: ThID:118|TID:1|TNAME:MasterAdmin|UID:-1|UNAME:|Error looking for jobs
+com.thirdbrigade.persistence1.exceptions.ObjectNotFoundSQLException: Host Object not found, pkid: 2
+	at com.thirdbrigade.manager.core.db.HostPeer.retrieveByPK(HostPeer.java:115)
+	at com.thirdbrigade.manager.core.scheduler.jobschedulers.HostComponentUpdateJobScheduler.lookForJobsToSpool(HostComponentUpdateJobScheduler.java:143)
+	at com.thirdbrigade.manager.core.scheduler.jobschedulers.JobSchedulerDistributedSpooling.lookForJobs(JobSchedulerDistributedSpooling.java:140)
+	at com.thirdbrigade.manager.core.scheduler.JobCreationTask.lambda$doRun$0(JobCreationTask.java:81)
+	at com.thirdbrigade.manager.core.db.Locks.withLockInternal(Locks.java:458)
+	at com.thirdbrigade.manager.core.db.Locks.withLockNoExceptions(Locks.java:523)
+	at com.thirdbrigade.manager.core.db.Locks.withLockNoExceptions(Locks.java:535)
+	at com.thirdbrigade.manager.core.scheduler.JobCreationTask.doRun(JobCreationTask.java:73)
+	at com.thirdbrigade.manager.core.threads.ParallelizedTenantTask.lambda$run$0(ParallelizedTenantTask.java:50)
+	at com.thirdbrigade.manager.core.db.Locks.withLockInternal(Locks.java:458)
+	at com.thirdbrigade.manager.core.db.Locks.withLockIfNotLockedNoExceptions(Locks.java:585)
+	at com.thirdbrigade.manager.core.threads.ParallelizedTenantTask.run(ParallelizedTenantTask.java:50)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Apr 17, 2019 6:28:04.552000000 PM [+0800] com.thirdbrigade.manager.core.scheduler.jobschedulers.JobSchedulerDistributedSpooling lookForJobs
+WARNING: ThID:76|TID:1|TNAME:MasterAdmin|UID:-1|UNAME:|Error looking for jobs
+com.thirdbrigade.persistence1.exceptions.ObjectNotFoundSQLException: Host Object not found, pkid: 2
+	at com.thirdbrigade.manager.core.db.HostPeer.retrieveByPK(HostPeer.java:115)
+	at com.thirdbrigade.manager.core.scheduler.jobschedulers.HostComponentUpdateJobScheduler.lookForJobsToSpool(HostComponentUpdateJobScheduler.java:143)
+	at com.thirdbrigade.manager.core.scheduler.jobschedulers.JobSchedulerDistributedSpooling.lookForJobs(JobSchedulerDistributedSpooling.java:140)
+	at com.thirdbrigade.manager.core.scheduler.JobCreationTask.lambda$doRun$0(JobCreationTask.java:81)
+	at com.thirdbrigade.manager.core.db.Locks.withLockInternal(Locks.java:458)
+	at com.thirdbrigade.manager.core.db.Locks.withLockNoExceptions(Locks.java:523)
+	at com.thirdbrigade.manager.core.db.Locks.withLockNoExceptions(Locks.java:535)
+	at com.thirdbrigade.manager.core.scheduler.JobCreationTask.doRun(JobCreationTask.java:73)
+	at com.thirdbrigade.manager.core.threads.ParallelizedTenantTask.lambda$run$0(ParallelizedTenantTask.java:50)
+	at com.thirdbrigade.manager.core.db.Locks.withLockInternal(Locks.java:458)
+	at com.thirdbrigade.manager.core.db.Locks.withLockIfNotLockedNoExceptions(Locks.java:585)
+	at com.thirdbrigade.manager.core.threads.ParallelizedTenantTask.run(ParallelizedTenantTask.java:50)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Apr 17, 2019 6:31:05.245000000 PM [+0800] com.thirdbrigade.manager.core.scheduler.jobschedulers.JobSchedulerDistributedSpooling lookForJobs
+WARNING: ThID:118|TID:1|TNAME:MasterAdmin|UID:-1|UNAME:|Error looking for jobs
+com.thirdbrigade.persistence1.exceptions.ObjectNotFoundSQLException: Host Object not found, pkid: 2
+	at com.thirdbrigade.manager.core.db.HostPeer.retrieveByPK(HostPeer.java:115)
+	at com.thirdbrigade.manager.core.scheduler.jobschedulers.HostComponentUpdateJobScheduler.lookForJobsToSpool(HostComponentUpdateJobScheduler.java:143)
+	at com.thirdbrigade.manager.core.scheduler.jobschedulers.JobSchedulerDistributedSpooling.lookForJobs(JobSchedulerDistributedSpooling.java:140)
+	at com.thirdbrigade.manager.core.scheduler.JobCreationTask.lambda$doRun$0(JobCreationTask.java:81)
+	at com.thirdbrigade.manager.core.db.Locks.withLockInternal(Locks.java:458)
+	at com.thirdbrigade.manager.core.db.Locks.withLockNoExceptions(Locks.java:523)
+	at com.thirdbrigade.manager.core.db.Locks.withLockNoExceptions(Locks.java:535)
+	at com.thirdbrigade.manager.core.scheduler.JobCreationTask.doRun(JobCreationTask.java:73)
+	at com.thirdbrigade.manager.core.threads.ParallelizedTenantTask.lambda$run$0(ParallelizedTenantTask.java:50)
+	at com.thirdbrigade.manager.core.db.Locks.withLockInternal(Locks.java:458)
+	at com.thirdbrigade.manager.core.db.Locks.withLockIfNotLockedNoExceptions(Locks.java:585)
+	at com.thirdbrigade.manager.core.threads.ParallelizedTenantTask.run(ParallelizedTenantTask.java:50)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Apr 17, 2019 6:34:05.968000000 PM [+0800] com.thirdbrigade.manager.core.scheduler.jobschedulers.JobSchedulerDistributedSpooling lookForJobs
+WARNING: ThID:76|TID:1|TNAME:MasterAdmin|UID:-1|UNAME:|Error looking for jobs
+com.thirdbrigade.persistence1.exceptions.ObjectNotFoundSQLException: Host Object not found, pkid: 2
+	at com.thirdbrigade.manager.core.db.HostPeer.retrieveByPK(HostPeer.java:115)
+	at com.thirdbrigade.manager.core.scheduler.jobschedulers.HostComponentUpdateJobScheduler.lookForJobsToSpool(HostComponentUpdateJobScheduler.java:143)
+	at com.thirdbrigade.manager.core.scheduler.jobschedulers.JobSchedulerDistributedSpooling.lookForJobs(JobSchedulerDistributedSpooling.java:140)
+	at com.thirdbrigade.manager.core.scheduler.JobCreationTask.lambda$doRun$0(JobCreationTask.java:81)
+	at com.thirdbrigade.manager.core.db.Locks.withLockInternal(Locks.java:458)
+	at com.thirdbrigade.manager.core.db.Locks.withLockNoExceptions(Locks.java:523)
+	at com.thirdbrigade.manager.core.db.Locks.withLockNoExceptions(Locks.java:535)
+	at com.thirdbrigade.manager.core.scheduler.JobCreationTask.doRun(JobCreationTask.java:73)
+	at com.thirdbrigade.manager.core.threads.ParallelizedTenantTask.lambda$run$0(ParallelizedTenantTask.java:50)
+	at com.thirdbrigade.manager.core.db.Locks.withLockInternal(Locks.java:458)
+	at com.thirdbrigade.manager.core.db.Locks.withLockIfNotLockedNoExceptions(Locks.java:585)
+	at com.thirdbrigade.manager.core.threads.ParallelizedTenantTask.run(ParallelizedTenantTask.java:50)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Apr 17, 2019 6:37:06.671000000 PM [+0800] com.thirdbrigade.manager.core.scheduler.jobschedulers.JobSchedulerDistributedSpooling lookForJobs
+WARNING: ThID:118|TID:1|TNAME:MasterAdmin|UID:-1|UNAME:|Error looking for jobs
+com.thirdbrigade.persistence1.exceptions.ObjectNotFoundSQLException: Host Object not found, pkid: 2
+	at com.thirdbrigade.manager.core.db.HostPeer.retrieveByPK(HostPeer.java:115)
+	at com.thirdbrigade.manager.core.scheduler.jobschedulers.HostComponentUpdateJobScheduler.lookForJobsToSpool(HostComponentUpdateJobScheduler.java:143)
+	at com.thirdbrigade.manager.core.scheduler.jobschedulers.JobSchedulerDistributedSpooling.lookForJobs(JobSchedulerDistributedSpooling.java:140)
+	at com.thirdbrigade.manager.core.scheduler.JobCreationTask.lambda$doRun$0(JobCreationTask.java:81)
+	at com.thirdbrigade.manager.core.db.Locks.withLockInternal(Locks.java:458)
+	at com.thirdbrigade.manager.core.db.Locks.withLockNoExceptions(Locks.java:523)
+	at com.thirdbrigade.manager.core.db.Locks.withLockNoExceptions(Locks.java:535)
+	at com.thirdbrigade.manager.core.scheduler.JobCreationTask.doRun(JobCreationTask.java:73)
+	at com.thirdbrigade.manager.core.threads.ParallelizedTenantTask.lambda$run$0(ParallelizedTenantTask.java:50)
+	at com.thirdbrigade.manager.core.db.Locks.withLockInternal(Locks.java:458)
+	at com.thirdbrigade.manager.core.db.Locks.withLockIfNotLockedNoExceptions(Locks.java:585)
+	at com.thirdbrigade.manager.core.threads.ParallelizedTenantTask.run(ParallelizedTenantTask.java:50)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+

@@ -1,0 +1,21 @@
+Apr 17, 2019 6:37:06.671000000 PM [+0800] com.thirdbrigade.manager.core.scheduler.jobschedulers.JobSchedulerDistributedSpooling lookForJobs
+WARNING: ThID:118|TID:1|TNAME:MasterAdmin|UID:-1|UNAME:|Error looking for jobs
+com.thirdbrigade.persistence1.exceptions.ObjectNotFoundSQLException: Host Object not found, pkid: 2
+	at com.thirdbrigade.manager.core.db.HostPeer.retrieveByPK(HostPeer.java:115)
+	at com.thirdbrigade.manager.core.scheduler.jobschedulers.HostComponentUpdateJobScheduler.lookForJobsToSpool(HostComponentUpdateJobScheduler.java:143)
+	at com.thirdbrigade.manager.core.scheduler.jobschedulers.JobSchedulerDistributedSpooling.lookForJobs(JobSchedulerDistributedSpooling.java:140)
+	at com.thirdbrigade.manager.core.scheduler.JobCreationTask.lambda$doRun$0(JobCreationTask.java:81)
+	at com.thirdbrigade.manager.core.db.Locks.withLockInternal(Locks.java:458)
+	at com.thirdbrigade.manager.core.db.Locks.withLockNoExceptions(Locks.java:523)
+	at com.thirdbrigade.manager.core.db.Locks.withLockNoExceptions(Locks.java:535)
+	at com.thirdbrigade.manager.core.scheduler.JobCreationTask.doRun(JobCreationTask.java:73)
+	at com.thirdbrigade.manager.core.threads.ParallelizedTenantTask.lambda$run$0(ParallelizedTenantTask.java:50)
+	at com.thirdbrigade.manager.core.db.Locks.withLockInternal(Locks.java:458)
+	at com.thirdbrigade.manager.core.db.Locks.withLockIfNotLockedNoExceptions(Locks.java:585)
+	at com.thirdbrigade.manager.core.threads.ParallelizedTenantTask.run(ParallelizedTenantTask.java:50)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
