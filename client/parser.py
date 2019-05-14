@@ -70,7 +70,8 @@ def run2():
     print(page.line_group)
 
     #show all data
-    for i in range(1, page.line_group+1):
+    target_line_group = page.line_group+1
+    for i in range(1, target_line_group):
         print("group: %s" % i)
         print(page.get_group_info(i, "log_data"))
 

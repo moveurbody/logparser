@@ -77,7 +77,8 @@ class LogPage(object):
 
     def get_group(self, group_number):
         result = []
-        for i in range(self.total_lines):
+        total_lines = self.total_lines
+        for i in range(total_lines):
             if self.lines[i].group == group_number:
                 result.append(self.lines[i])
             if self.lines[i].group > group_number:
@@ -86,8 +87,9 @@ class LogPage(object):
 
     def get_group_info(self, group_number, attribute=None):
         result = []
+        total_lines = self.total_lines
         information = []
-        for i in range(self.total_lines):
+        for i in range(total_lines):
             if self.lines[i].group == group_number:
                 result.append(self.lines[i])
             if self.lines[i].group > group_number:
@@ -132,7 +134,8 @@ class LogPage(object):
 
     def get_parsing_result(self):
         result = []
-        for i in range(self.line_group + 1):
+        target_line_group = self.line_group + 1
+        for i in range(target_line_group):
             if self.get_group_info(i, 'hit_pattern'):
                 result.append(self.get_group_info(i))
         return result
