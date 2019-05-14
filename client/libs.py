@@ -67,11 +67,11 @@ class LogPage(object):
         for i in raw_logs:
             if re.match(DSMSystemPatterns.TIMEFORMAT.value, i):
                 line_group = line_group + 1
-            self._add_line(line_number, i, line_group, self.patterns)
+            self.__add_line(line_number, i, line_group, self.patterns)
             line_number = line_number + 1
         self.line_group = line_group
 
-    def _add_line(self, line_number, raw_log, line_group, patterns):
+    def __add_line(self, line_number, raw_log, line_group, patterns):
         log_line = LogLine(line_number, raw_log, line_group, patterns)
         self.lines.append(log_line)
 
@@ -86,7 +86,7 @@ class LogPage(object):
 
     def get_group_info(self, group_number, attribute=None):
         result = []
-        infos = []
+        information = []
         for i in range(self.total_lines):
             if self.lines[i].group == group_number:
                 result.append(self.lines[i])
@@ -94,15 +94,15 @@ class LogPage(object):
                 break
 
         for i in result:
-            infos.append(i.info)
-        temp = self._merge_dicts(infos)
+            information.append(i.info)
+        temp = self.__merge_dicts(information)
 
         if attribute is None:
             return temp
         else:
             return temp[attribute]
 
-    def _merge_dicts(self, dict_args):
+    def __merge_dicts(self, dict_args):
         result = {
             'timestamp': "",
             'class_name': "",
@@ -144,15 +144,15 @@ class LogLine(object):
         self.raw_log = raw_log
         self.group = group
         self.info = {}
-        self._extract_info()
+        self.__extract_info()
         self.info['group'] = group
-        res = self._parse_log(raw_log, patterns)
+        res = self.__parse_log(raw_log, patterns)
 
         if res is not None:
             self.info['hit_pattern'] = res[0]
             self.info['hit_pattern_id'] = res[1]
 
-    def _extract_info(self):
+    def __extract_info(self):
         TIMEFORMAT = "(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?) (?:(?:0[1-9])|(?:[12][0-9])|(?:3[01])|[1-9]), [1-2][0-9]\d{2} (?:2[0123]|[01]?[0-9]):(?:[0-5][0-9]):(?:(?:[0-5][0-9]|60)(?:[:.,][0-9]+)?) [pP|aA][mM] \[[+-][0-1][0-9]\d+\]"
         JAVACLASS = "(?:[a-zA-Z0-9-]+\.)+[A-Za-z0-9$]+"
         JAVAFUNCTION = "(?:[A-Za-z0-9_.-]+)"
@@ -176,7 +176,7 @@ class LogLine(object):
         elif log_line:
             self.info['log_data'] = log_line.group()
 
-    def _parse_log(self, raw_log, patterns):
+    def __parse_log(self, raw_log, patterns):
         patterns_id = patterns['id'].values.tolist()
         patterns = patterns['pattern'].values.tolist()
         patterns_size = len(patterns)

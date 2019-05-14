@@ -58,5 +58,21 @@ def run():
     print(page.get_parsing_result())
 
 
+def run2():
+    cfg = pattern_handler.load_configuration()
+    pattern_handler.download_db(cfg['Default']['database'])
+
+    # extra patterns
+    patterns = pattern_handler.SingleErrorPatterns().get_pattern()
+    # load files
+    page = LogPage("server0.log", patterns)
+    page.line_group
+    print(page.line_group)
+
+    for i in range(1,page.line_group+1):
+        print(page.get_group_info(i, "log_data"))
+
+
 if __name__ == "__main__":
     run()
+    run2()
