@@ -69,10 +69,12 @@ def run2():
     page.line_group
     print(page.line_group)
 
-    for i in range(1,page.line_group+1):
+    #show all data
+    for i in range(1, page.line_group+1):
+        print("group: %s" % i)
         print(page.get_group_info(i, "log_data"))
 
 
 if __name__ == "__main__":
-    run()
+    # run()
     run2()
